@@ -1,8 +1,9 @@
 # BookSmart (Consola · Kotlin)
 
 Proyecto de ejemplo para practicar la **Evaluación Parcial 1** de Desarrollo de Aplicaciones Móviles.
+
 Incluye:
-- Jerarquía `Libro` → `LibroFisico` / `LibroDigital` (herencia)
+- Jerarquía `Libro` → `LibroFisico` / `LibroDigital`
 - Polimorfismo mediante `override` de `costoFinal()` y `descripcion()`
 - `sealed class EstadoPrestamo` y `when` para manejar estados
 - Corrutinas: `suspend fun procesarSolicitudPrestamo` + `delay(3000)`
