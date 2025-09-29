@@ -8,13 +8,11 @@ Incluye:
 - Corrutinas: `suspend fun procesarSolicitudPrestamo` + `delay(3000)`
 - Colecciones (`List`) y operaciones funcionales (`filter`, `sumOf`)
 - Manejo de errores con `require` y `try/catch`
-
-> **Uso responsable:** Respeta las reglas de tu curso. Usa este proyecto como referencia de estudio y práctica.
-
+- 
 ## Requisitos
 - JDK 17+
-- Gradle (wrapper opcional)
-- IntelliJ IDEA (recomendado)
+- Gradle
+- IntelliJ IDEA
 
 ## Ejecutar
 1. Abrir la carpeta del proyecto en IntelliJ.
@@ -38,8 +36,3 @@ BookSmart/
 - Digital con DRM: +5% (restricción).
 - Multa por retraso: $300 por día (ajustable en `GestorPrestamos.kt`).
 - Descuento por tipo de usuario: `ESTUDIANTE 10%`, `DOCENTE 15%`, `EXTERNO 0%`.
-
-
-## Ajustes para nota máxima
-- Se documentaron funciones/clases con **KDoc** breve.
-- Se añadió un pipeline **`map` → `forEach`** en la impresión de estados para demostrar funciones de alto orden (además de `filter` y `sumOf`).
