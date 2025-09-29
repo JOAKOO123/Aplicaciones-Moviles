@@ -22,5 +22,17 @@ Proyecto de ejemplo para practicar la Evaluación Parcial 1 de Desarrollo de Apl
 3. Ejecutar `Main.kt` o usar:
    ```bash
    ./gradlew run
+BookSmart/
+├─ build.gradle.kts
+├─ settings.gradle.kts
+└─ src/
+   └─ main/
+      └─ kotlin/
+         ├─ Libro.kt
+         ├─ LibroFisico.kt
+         ├─ LibroDigital.kt
+         ├─ EstadoPrestamo.kt
+         ├─ GestorPrestamos.kt
+         └─ Main.kt
 
 
